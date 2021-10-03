@@ -63,7 +63,7 @@ int main() {
    }
    cout << "Array before Sorting: ";
    display(arr, n);
-   mergeSort(arr, 0, n-1);     //(n-1) for last index
+   mergeSort(arr, 0, n);     //(n-1) for last index
    cout << "Array after Sorting: ";
    display(arr, n);
 }
